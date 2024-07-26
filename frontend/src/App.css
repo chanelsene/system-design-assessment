@@ -1,0 +1,28 @@
+.container {
+  min-width: 350px;
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 20px 0 20px;
+}
+
+.header {
+  height: 50px;
+  margin-bottom: 6px;
+  background-color: rgb(212, 208, 208);
+  position: sticky;
+  top: 0;
+  
+  .header-logo {
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    
+    .header-text {
+      margin: 6px 0 6px 10px;
+    }
+
+    img {
+      height: 30px;
+    }
+  }
+}

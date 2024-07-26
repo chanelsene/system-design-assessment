@@ -1,0 +1,46 @@
+.video {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 150px;
+  padding: 12px 0 12px 0;
+  border-bottom: 1px solid rgb(212, 208, 208);
+  
+  .video-info {
+    display: flex;
+    flex-direction: row;
+
+    .video-title {
+      margin: 8px 0 0 16px;
+    }
+
+    .video-img {
+      height: 100%;
+      border-radius: 15px;
+    }
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    height: unset;
+
+    .video-info {
+      flex-direction: column-reverse;
+
+      .video-img {
+        width: 100%;
+        height: unset;
+      }
+
+      .video-title {
+        margin: 8px 0 8px 0;
+      }
+    }
+  }
+}
+
+.video:hover {
+  background: rgb(206,207,214);
+  background: radial-gradient(circle, rgba(206,207,214,1) 0%, rgba(255,255,255,1) 42%);
+}

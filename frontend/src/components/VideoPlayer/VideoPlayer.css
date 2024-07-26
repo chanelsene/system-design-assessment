@@ -1,0 +1,19 @@
+.video-player {
+    width: 100%;
+    margin-top: 40px;
+    
+    .video-player__youtube {
+        width: 100%;
+        aspect-ratio: 21/9;
+    }
+
+    .video-player__info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .video-player__title {
+            margin: 8px 0 0 8px;
+        }
+    }
+}

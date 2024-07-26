@@ -1,0 +1,17 @@
+.star-icon {
+    margin-top: 8px;
+    svg:hover {
+        color: grey;
+    }
+}
+
+.star-icon-active {
+    margin-top: 8px;
+    svg {
+        color: red;
+    }
+
+    svg:hover {
+        color: rgb(226, 112, 112);
+    }
+}
