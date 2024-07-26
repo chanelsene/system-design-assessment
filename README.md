@@ -26,13 +26,17 @@ API Specs
 To run the app you first need to the server by running the below commands:
 
 > cd backend
+
 > npm install (you might have to dd --legacy-peer-deps)
+
 > npm start
 
 Then, you need to run the react app by running the below commands (assuming you are at the root):
 
 > cd frontend
+
 > npm install (yoou moght have to add --legacy-peer-deps)
+
 > npm start
 
 You can run test in either folder by running the following command:
