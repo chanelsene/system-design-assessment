@@ -9,13 +9,9 @@ This is my submission for the system design assignment. The following deliverabl
 - [ ] Any functionality added to your front page React app, for example:
   * Adding the ability for a user to "favorite" a video, and persisting a list of a user's "favorited" videos.
   * Adding the ability for a user to click on a video and watch it
-  * **Feel free to decide on your own what features you could add that would be a good exhibition of your abilites**
 - [ ] An API spec for any APIs included in your proposed system. This would include:
   * A description of all available endpoints
   * The request and response types for each endpoint
-  * Anything else you think is worth providing as documentation to someone planning on using this API
-- [ ] Prototypes of any other service included in your system. For example:
-  * A Database and API that your React app uses to fetch and persist data
  
 The MERN Stack was chosen for its flexibility and development cohesiveness. Given the CMS-like nature of MongoDB, it was suitable to store assets like videos. Node.js and Express.js were chosen as the connection to MongoDB is seamless and so is the development process.
 
@@ -30,16 +26,18 @@ API Specs
 To run the app you first need to the server by running the below commands:
 
 > cd backend
-> npm install
+> npm install (you might have to dd --legacy-peer-deps)
+> npm start
 
 Then, you need to run the react app by running the below commands (assuming you are at the root):
 
 > cd frontend
-> npm install
+> npm install (yoou moght have to add --legacy-peer-deps)
+> npm start
 
 You can run test in either folder by running the following command:
 
-> npm install
+> npm test
 
 
 Thank you!
