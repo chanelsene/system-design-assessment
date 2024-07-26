@@ -1,9 +1,4 @@
-# Instructions
-The objective is to design a video-sharing and streaming platform, a YouTube "clone". 
-
-The functional and non-functional requirements are not set in stone; we expect you to decide for yourself what a "good" video streaming and sharing platform should have. A platform like YouTube can have countless features, so a focus on core functionality such as uploading and viewing videos is expected, but if you find value in expanding or contracting the scope, feel free to do so. 
-
-You are expected to spend less than 5 hours on this assignment; you will have 1 hour to present your coding assignment and your proposed architecture in the upcoming interview, and you will also be expected to submit specific deliverables by pushing them to a GitHub repository before the deadline. In particular, the expected deliverables are:
+This is my submission for the system design assignment. The following deliverables were met.
 
 ### Mandatory deliverables
 - [ ] A Diagram illustrating your proposed system
@@ -22,5 +17,29 @@ You are expected to spend less than 5 hours on this assignment; you will have 1 
 - [ ] Prototypes of any other service included in your system. For example:
   * A Database and API that your React app uses to fetch and persist data
  
-### What you will be assessed on
-This is a relatively open-ended assessment, and we want you to feel free to design and build whatever you think best displays your abilities. We will expect that you can develop a simple React App, and that you can design a system given basic business requirements. Everything else is optional, but appreciated. **Please fork this repository, and upload everything associated with your submission to your forked repository. Make sure to share your forked repository with us before the deadline.** If any part of your submission is an application or service that can be ran, please include instructions for how to run it. 
+The MERN Stack was chosen for its flexibility and development cohesiveness. Given the CMS-like nature of MongoDB, it was suitable to store assets like videos. Node.js and Express.js were chosen as the connection to MongoDB is seamless and so is the development process.
+
+Diagram
+
+![Mern Diagram](https://github.com/user-attachments/assets/e0082e84-ee0c-4900-a13c-7127e9d672d4)
+
+API Specs
+
+![API spec](https://github.com/user-attachments/assets/7caa52ab-e28a-433e-bf9f-a7555638dfe2)
+
+To run the app you first need to the server by running the below commands:
+
+> cd backend
+> npm install
+
+Then, you need to run the react app by running the below commands (assuming you are at the root):
+
+> cd frontend
+> npm install
+
+You can run test in either folder by running the following command:
+
+> npm install
+
+
+Thank you!
